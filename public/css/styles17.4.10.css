@@ -1,0 +1,135 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+© 20010 GreenBean
+Powered By Futerox Interactive.
+Designed By Prem Raj Madhukar
+HTML by Sumit Arora
+Developed by Alok Kumar Jha 
+*/
+
+/*----------------------------Default start here----------------------------*/
+
+body, html{height:100%; font-family:Georgia, "Times New Roman", Times, serif;}
+body{background:#eee9dc url(../images/bg.png) repeat-x fixed center top;}
+h1,h2,h3,h4,form,ul,img,p,input,body,html{padding:0; margin:0; border:0;}
+a{color:#81290d; text-decoration:none; cursor:pointer;}
+a:hover{text-decoration:underline;}
+
+
+
+
+/*----------------------------header start Here----------------------------*/
+
+#wrapper{position:relative; height:100%; min-height:100%;}
+#container{width:903px; margin:0 auto;}
+.header{float:left; width:903px; position:relative; height:62px;}
+.top-nav{float:left; width:823px; padding:15px 22px 0 58px;}
+.top-nav-left{float:left;}
+.top-nav-left ul{list-style-type:none;}
+.top-nav-left ul li{display:block; float:left;}
+.top-nav-left ul li a{color:#FFF; padding-right:28px; text-transform:uppercase; font-size:14px;}
+.top-nav-left ul li a:hover{text-decoration:none;}
+
+
+.top-nav-right{float:right;}
+
+
+.top-nav-right a{color:#FFF; padding-right:28px; text-transform:uppercase; font-size:14px; display:block; float:left;}
+.top-nav-right a:hover{text-decoration:none;}
+
+
+
+.logo{width:269px; position:absolute; top:0; left:329px; float:left; z-index:2000; display:block;}
+.content-wp{float:left; width:814px; padding:0 38px 0 51px;} 
+.content-tp{float:left; width:814px; background:url(../images/content-tp.png) no-repeat left top; height:25px;}
+.content-md{background:url(../images/content-md.png) repeat-y left top; width:814px; position:relative; height:1100px; float:left; min-height:800px;}
+.content-lt{float:left; width:526px; position:absolute; left:-52px; top:0; z-index:1000; margin:100px 0 0 0;}
+.vote-wp{float:left; width:526px; margin-bottom:10px;} 
+.vote-number{float:left; width:104px; height:93px; background:url(../images/vote-bg.png) no-repeat left top; margin-right:10px;} 
+.vote-right{float:left; width:412px;}
+.vote-pic{float:left; width:35px; margin-right:14px;}
+.vote-txt{float:left; width:363px;} 
+.vote-txt h2{font-weight:normal; font-size:20px; color:#81290d; text-transform:uppercase; padding-bottom:7px; background:url(../images/feed-seprator.png) no-repeat left bottom;} 
+.vote-txt a:hover{ color:#4a5e35; text-decoration:none;} 
+.vote-txt p{ color:#737373; font-size:14px; padding-top:9px;}
+.vote-txt span{font-size:12px;} 
+.div-number-txt{float:left; padding:14px 0 0 42px; text-align:center; width:53px;}
+.div-number-txt p{font-size:30px; font-weight:bold; font-family:"Times New Roman", Times, serif; line-height:22px; padding-bottom:10px;}
+.div-number-txt span{font-size:12px; font-weight:normal; font-family:"Times New Roman", Times, serif; color:#81290D; background:url(../images/up-arrow.jpg) no-repeat right 3px; display:block; width:40px; padding-right:5px; margin-left:3px;}
+
+.content-right{float:right; width:330px; margin:100px 0 0 0; position:absolute; right:-30px; top:0;}
+.sidebar{float:right; width:330px;}
+
+.leaderboard-tp{background:url(../images/leaderboard-tp.jpg) no-repeat left top; width:324px; height:70px; text-align:center; color:#FFF; padding-top:6px;} 
+.leaderboard-tp h2{font-size:22px; color:#FFF; text-transform:uppercase; font-weight:normal;} 
+.leaderboard-tp a{color:#FFF;} 
+.leaderboard-tp p{font-size:14px; color:#FFF; text-transform:uppercase; font-weight:normal;} 
+.leaderboard-md{background:url(../images/leaderboard-md.jpg) repeat-x left top; float:left; width:308px; padding:0 4px;}
+.leaderboard-inner{background:#FFF; float:left; width:280px; padding:14px;}
+.leaderboard-inner h2{font-size:14px; text-transform:uppercase; color:#81290d; font-weight:normal;}
+
+.leaderboard-li{border-bottom:solid 1px #edebe4; padding-bottom:5px; float:left; width:280px; margin-bottom:5px;} 
+.leaderboard-li p{font-size:12px; color:#000;} 
+
+.leaderbord-left{width:190px; float:left;}
+.leaderbord-left a{text-transform:uppercase; font-size:12px;}
+.leaderboard-right{float:right;}
+.leaderboard-right p{color:#000000; font-size:12px;}
+.leaderboard-main{float:left; width:324px; padding-left:6px; margin-bottom:10px;}
+.leaderboard-bt{background:url(../images/leaderboard-bt.jpg) no-repeat left top; width:316px; height:4px; float:left;} 
+.pb{padding-bottom:10px;}
+
+.sidebar-tag{float:right; width:330px;}
+.sidebar-tag h2{ font-family:Tahoma, Geneva, sans-serif; font-size:14px; color:#4f843b;}
+.sidebar-tag ul{list-style-type:none; padding-top:10px;}
+.sidebar-tag ul li{display:block;}
+.sidebar-tag ul li a{color:#003366; font-size:14px; font-family:Tahoma, Geneva, sans-serif;}
+.sidebar-tag ul li span{color:#4f843b; font-size:14px; font-family:Tahoma, Geneva, sans-serif;}
+
+.content-bt{background:url(../images/content-bt.png) no-repeat left top; width:814px; height:34px; float:left;}
+
+
+/*----------------------------Rank Starts Here----------------------------*/
+
+.rank-tp{float:left; background:#5e7e4c; width:316px;}
+.rank-tp a{color:#FFF;}
+.rank-tp h2{font-size:20px; font-weight:normal; color:#FFF; line-height:20px; padding:12px 0 12px 8px;}
+
+.profile-wp{float:left; width:446px; padding-left:80px; padding-bottom:13px;}
+.profile-wp h3{font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; font-size:24px;}
+.profile-wp p{font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; font-size:14px; text-transform:uppercase; color:#5e7e4c;}
+
+.profile-pic{float:left; margin-right:10px; width:75px;}
+.profile-txt{float:left; width:361px;}
+
+.cmt-wp{float:left; width:446px; padding-left:80px;}
+.cmt-bx{float:left; width:436px; background:url(../images/cmt-bg.png) no-repeat left top; height:58px; margin-bottom:13px; padding:5px;}
+
+.cmt-check-bx{float:left; width:436px; margin-bottom:13px; padding:5px;}
+.cmt-check{float:left; padding-right:20px; font-size:12px; color:#737373; padding-bottom:5px;}
+
+.add-tag{float:left; width:436px; margin-bottom:13px; padding:5px;}
+
+.inp{padding:5px; border:solid 1px #edebe4; color:#737373; font-family:Georgia, "Times New Roman", Times, serif; font-size:12px;}
+.fairfield-txt{float:left; width:330px; padding-bottom:13px;}
+.fairfield-txt h2{color:#83290d; font-size:22px; font-weight:normal;}
+
+
+/*----------------------------------------------- CSS for Add tags ------------------------------------*/
+fieldset {border:0; }
+		.tagger { float:left; }
+		.tagAdd { margin:0 0 0 6px;}
+		.tagList { list-style:none; padding:0; margin:0; clear:both; padding-left:4px; float:left; margin:5px 10px;}
+		.tagName { cursor:pointer;color:#81290D;float:left;font-size:12px;padding-bottom:5px;padding-right:20px;}		
+		.tagName:hover { background:#efefef url(../images/bullet_toggle_minus.png) right 4px no-repeat; -moz-border-radius:4px; }
+		
+
+.top-locations-wp{float:left; padding:0 10px 0 40px; width:400px; margin:100px 0 0 0;}
+h1{color:#81290d; font-size:24px; font-weight:normal;}
+.top-locations-wp h2{font-size:20px; color:#000; font-weight:normal; background:url(../images/top-location-bottom.jpg) no-repeat bottom left; padding-bottom:5px; padding-top:30px;}
+
+.top-locations-wp ul{list-style-type:none; padding:10px 0 0 0;}
+.top-locations-wp ul li{list-style-type:none; color:#4f843b; margin-bottom:8px;}
+.top-locations-wp ul li a{color:#81290d;}
+.top-locations-wp ul li span{float:left; color:#737373; display:block; width:30px;}

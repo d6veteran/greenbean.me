@@ -1,0 +1,150 @@
+body{background-color:#f2f2f2; margin:0; padding:0; }
+td {  font-family: Tahoma, Arial, "Microsoft Sans Serif"; font-size: 11px; color: #333333}
+.header_bg {  font-family: Tahoma, Arial, "Microsoft Sans Serif"; font-size: 12px; font-weight: bold; color: #666; background-color: #eeeeee;}
+.buttons {  font-family: Tahoma, Arial, "Microsoft Sans Serif"; font-size: 11px; font-weight: bold; color: #333333; background-color: #F7F7F7; border: #333333; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px}
+.textfield {  font-family: Tahoma, Arial, "Microsoft Sans Serif"; font-size: 11px; font-weight: normal; color: #333333}
+.h1 {  font-family: Tahoma, Arial, "Microsoft Sans Serif"; font-size: 14px; font-weight: bold; color: #000}
+.evenRow {  background-color: #F7F7F7}
+.oddRow {  background-color: #FFFFFF}
+a:link {  font-family: Tahoma, Arial, "Microsoft Sans Serif"; font-size: 12px; font-weight: normal;}
+.fields_txt {  font-family: Geneva, Arial, Helvetica, san-serif; font-size: 11px; font-weight: bold; color: #000000}
+.sess_msg_red {  font-family: Tahoma, Arial, "Microsoft Sans Serif"; font-size: 10px; color: #993333}
+a:links{ color:#603; text-decoration:none; font-family: Tahoma, Arial, "Microsoft Sans Serif";font-size:12px;  }
+.links:visited{ color:#603; text-decoration:font-family: Tahoma, Arial, "Microsoft Sans Serif";  none; font-family: Verdana, Geneva, sans-serif; font-size:12px; }
+.links:hover{ color:#603; text-decoration: underline; font-family: Tahoma, Arial, "Microsoft Sans Serif"; font-size:12px;}
+.savelink{ text-decoration:none; color:#000; }
+.body {
+ 
+  background: #fff;
+  width: 370px;
+  border: #666 solid 3px;
+}
+
+th.headerSortUp { 
+    background-image: url(../images/small_asc.gif); 
+    background-color: #e6EEEE; 
+} 
+
+th.headerSortDown { 
+    background-image: url(../images/small_desc.gif); 
+    background-color: #e6EEEE; 
+} 
+
+th.header { 
+   
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    border-right: 1px solid #e6EEEE; 
+    margin-left: -1px; 
+} 
+
+.tDnD_whileDrag {
+ background-color:#CCC;	
+ font-weight:bold;
+}
+
+.tDnD_onDrop {
+ background-color:#CCC;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	body {
+		font-family:georgia; 
+		font-size:14px; 
+	}
+	
+	a {
+		text-decoration:none; 
+		color:#333;
+		outline:0;
+	}
+	
+	img {
+		outline:0; 
+		border:0;
+	}
+	
+	#menu {
+		/* you must set it to relative, so that you can use absolute position for children elements */
+		position:relative; 
+		text-align:center; 
+		width:583px; 
+		height:40px;
+	}
+	
+	#menu ul {
+		/* remove the list style and spaces*/
+		margin:0; 
+		padding:0; 
+		list-style:none; 
+		display:inline;
+				
+		/* position absolute so that z-index can be defined */
+		position:absolute; 
+		
+		/* center the menu, depend on the width of you menu*/
+		left:110px; 
+		top:0; 
+		
+	}
+	
+	#menu ul li {
+		
+		/* give some spaces between the list items */
+		margin:0 5px; 
+		
+		/* display the list item in single row */
+		float:left;
+	}
+	
+	#menu #box {
+		
+		/* position absolute so that z-index can be defined and able to move this item using javascript */
+		position:absolute; 
+		left:0; 
+		top:0; 
+		z-index:200; 
+
+		/* image of the right rounded corner */
+		background: url(../tail.gif) no-repeat right center; 
+		height:35px;
+
+
+		/* add padding 8px so that the tail would appear */
+		padding-right:8px;
+		
+		/* set the box position manually */
+		margin-left:5px;
+		
+	}
+	
+	#menu #box .head {
+		/* image of the left rounded corner */
+		background: url(../head.gif) no-repeat 0 0;
+		height:35px;
+		color:#eee;
+		
+		/* force text display in one line */
+		white-space:nowrap;
+
+		/* set the text position manually */
+		padding-left:8px;
+		padding-top:12px;
+	}
+
