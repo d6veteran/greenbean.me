@@ -1,0 +1,11 @@
+<div class="copysample">
+
+<p>Feel free to contact us with service questions, partnership proposals, advertising opportunities or media inquiries.</p>
+
+<p>SuperKablamo, LLC</br>
+PO Box 1904</br>
+Fairfield, IA 52556</p>
+
+<p>info@greenbean.me</p>
+
+</div>
