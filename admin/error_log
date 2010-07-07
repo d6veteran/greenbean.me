@@ -1,0 +1,17 @@
+[05-Nov-2009 04:46:25] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/ajax/public_html/frendli/admin/user_list.php on line 236
+[05-Nov-2009 04:50:19] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/ajax/public_html/frendli/admin/user_list.php on line 236
+[05-Nov-2009 06:51:23] PHP Parse error:  syntax error, unexpected '<' in /home/ajax/public_html/frendli/admin/user_list.php on line 240
+[05-Nov-2009 07:56:30] PHP Parse error:  syntax error, unexpected T_ELSE in /home/ajax/public_html/frendli/admin/manage_business_det.php on line 73
+[22-Mar-2010 06:13:22] PHP Parse error:  syntax error, unexpected '}' in /home/ajax/public_html/greenbean/admin/user_list.php on line 260
+[22-Mar-2010 07:09:37] PHP Parse error:  syntax error, unexpected '}' in /home/ajax/public_html/greenbean/admin/user_list.php on line 21
+[24-Mar-2010 05:20:08] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ajax/public_html/greenbean/admin/tag_add.php on line 28
+[24-Mar-2010 05:20:08] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ajax/public_html/greenbean/admin/tag_add.php on line 28
+[24-Mar-2010 05:21:30] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ajax/public_html/greenbean/admin/tag_add.php on line 28
+[24-Mar-2010 05:23:13] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ajax/public_html/greenbean/admin/tag_add.php on line 28
+[24-Mar-2010 05:27:16] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ajax/public_html/greenbean/admin/tag_add.php on line 28
+[24-Mar-2010 05:27:24] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ajax/public_html/greenbean/admin/tag_add.php on line 28
+[24-Mar-2010 05:27:34] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/ajax/public_html/greenbean/admin/tag_add.php on line 28
+[24-Mar-2010 07:25:06] PHP Parse error:  syntax error, unexpected '}' in /home/ajax/public_html/greenbean/admin/tag_add_edit.php on line 59
+[07-May-2010 03:28:39] PHP Parse error:  syntax error, unexpected ':' in /home/ajax/public_html/greenbean/admin/tag_add.php on line 35
+[07-May-2010 03:29:03] PHP Parse error:  syntax error, unexpected ':' in /home/ajax/public_html/greenbean/admin/tag_add.php on line 35
+[07-May-2010 03:29:26] PHP Parse error:  syntax error, unexpected ':' in /home/ajax/public_html/greenbean/admin/tag_add.php on line 35

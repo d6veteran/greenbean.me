@@ -1,0 +1,1 @@
+Your account was created, <?php echo anchor('main/signin', 'login here'); ?>

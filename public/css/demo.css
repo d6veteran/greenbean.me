@@ -1,0 +1,46 @@
+/*
+
+Tutoralzine Demo 
+Original tutorial: Making Our Own Twitter Timeline
+Tutorial URL: http://tutorialzine.com/2009/09/making-our-own-twitter-timeline/
+
+You are free to use the following demo code for any purpose you see fit.
+
+*/
+
+
+/* Page styles */
+
+
+
+
+/* Form & timeline styles */
+
+
+
+.counter{
+	color:#CCCCCC;
+}
+
+
+.clear{
+	clear:both;
+}
+
+.submitButton{
+	height:35px;
+	width:97px;
+	background:url(../images/submit-but.jpg) no-repeat left top;
+	display:block;
+	float:right;
+
+}
+
+.submitButton:hover{
+	background:url(../images/submit-but.jpg) no-repeat left top;
+}
+
+.inact,.inact:hover{
+	background:url(../images/submit-but1.jpg) no-repeat left top;
+}
+
