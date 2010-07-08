@@ -44,7 +44,7 @@ foreach ($top_users as $value)
 </div>
 <div class="sidebar">
 
-<div class="fairfield-txt">
+<div class="top-message">
 <? if(!isset($_SESSION['userid'])){?>
 <p><a class='login_box' href="#user_login_box">Sign up and start earning beans<br />
 for this tag</a></p>
@@ -64,21 +64,21 @@ false;" ><img id="fb_login_image" src="<?=base_url();?>public/images/f-connect.g
 <a href="<?=base_url()?>twitter_connect"><img src="<?=base_url()?>public/images/twitter-connect.jpg" width="150" height="22" /> </a>
 		</div>
 	</div>
-<div class="leaderboard-main">
-<div class="rank-tp">
-  <h2>Tag Leader Rankings by User</h2>
+<div class="leader-box">
+<div class="leader-box-header">
+  <h2>Tag Leader Rank By User</h2>
 </div>
-<div class="leaderboard-md">
+<div class="leader-box-middle">
 	<? if($top_users_tags){ 	
 for($i=0;$i<sizeof($top_users_tags);$i++)
   {?>  
-<div class="leaderboard-inner">
+<div class="leader-box-listing">
  <h2><?=$this->functions->show_tags_name($top_users_tags[$i]['tag_id'])?></h2>
  <?
  if($top_users_tags[$i]['top_users']){
  for($j=0;$j<sizeof($top_users_tags[$i]['top_users']);$j++)
   {?> 
-<div class="leaderboard-li">
+<div class="leader-box-listing-item">
   <p><a href="<?=base_url()?>user/profile/<?=$top_users_tags[$i]['top_users'][$j]->user_userid?>"><?=$top_users_tags[$i]['top_users'][$j]->user_username?></a> - <a href="#"><?=$top_users_tags[$i]['top_users'][$j]->totaltagused?></a></p>
 </div>
 <? }}?> 
