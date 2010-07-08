@@ -11,7 +11,9 @@ html>body #wrapper{height:100%;}
 Fonts
 -----------------------------------------
 */
-body, html{font-family:Georgia, "Times New Roman", Times, serif;}
+body, html {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
 
 h1 {
   color: #81290D;
@@ -46,9 +48,35 @@ h2 {
 
 /*
 -----------------------------------------
-Fonts
+Profile
 -----------------------------------------
 */
+
+.profile-pic {
+	float:left; 
+	margin-right:10px; 
+	width:75px;
+}
+
+/*
+-----------------------------------------
+Sidebar
+-----------------------------------------
+*/
+
+.sidebar {
+	float:right; 
+	width:330px;
+}
+
+.sidebar .ad-300x250{
+	float: left;
+	width:308px;
+	padding: 0 0 8px 14px;
+}
+
+
+
 
 
 
@@ -86,7 +114,7 @@ a.logo{z-index:2000; display:block; background:url(../images/logo.png) no-repeat
 .div-number-txt p{font-size:30px; font-weight:bold; font-family:"Times New Roman", Times, serif; line-height:22px; padding-bottom:10px;}
 .div-number-txt span{font-size:12px; font-weight:normal; font-family:"Times New Roman", Times, serif; color:#81290D; background:url(../images/up-arrow.jpg) no-repeat right 3px; display:block; width:40px; padding-right:5px; margin-left:3px;}
 .content-right{float:right; width:330px;}
-.sidebar{float:right; width:330px;}
+
 .leaderboard-tp{background:url(../images/leaderboard-tp.jpg) no-repeat left top; width:324px; height:70px; text-align:center; color:#FFF; padding-top:6px;} 
 .leaderboard-tp h2{font-size:22px; color:#FFF; text-transform:uppercase; font-weight:normal;} 
 .leaderboard-tp a{color:#FFF;} 
@@ -120,7 +148,7 @@ a.logo{z-index:2000; display:block; background:url(../images/logo.png) no-repeat
 .profile-wp{float:left; width:446px; padding-left:80px; padding-bottom:13px;}
 .profile-wp h3{font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; font-size:24px;}
 .profile-wp p{font-family:Georgia, "Times New Roman", Times, serif; font-weight:normal; font-size:14px; text-transform:uppercase; color:#5e7e4c;}
-.profile-pic{float:left; margin-right:10px; width:75px;}
+
 .profile-txt{float:left; width:361px;}
 .cmt-wp{float:left; width:446px; padding-left:80px;}
 .cmt-bx{float:left; width:436px; background:url(../images/cmt-bg.png) no-repeat left top; height:58px; margin-bottom:13px; padding:5px;}

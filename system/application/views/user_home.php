@@ -171,7 +171,8 @@ foreach ($top_users as $value)
 <div class="leaderboard-bt"></div>
 </div>
 
-<div class="sidebar pb"><img src="<?=base_url()?>public/images/advertisement.png" width="330" height="276" /></div>
+<div class="ad-300x250"><iframe src="http://rcm.amazon.com/e/cm?t=greenbean.me-20&o=1&p=12&l=ur1&category=earthday&banner=1DG5GKFX1JWFXRYVV9R2&f=ifr" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+</div>
 
 <div class="sidebar-tag">
   <h2>Tag Rankings</h2>

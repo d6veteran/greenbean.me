@@ -42,7 +42,7 @@ foreach ($top_users as $value)
     
     
 </div>
-<div class="content-right">
+<div class="sidebar">
 
 <div class="fairfield-txt">
 <? if(!isset($_SESSION['userid'])){?>
@@ -92,7 +92,8 @@ for($i=0;$i<sizeof($top_users_tags);$i++)
 <div class="leaderboard-bt"></div>
 </div>
 
-<div class="sidebar pb"><img src="<?=base_url()?>public/images/advertisement.png"/></div>
+<div class="ad-300x250"><iframe src="http://rcm.amazon.com/e/cm?t=greenbean.me-20&o=1&p=12&l=ur1&category=earthday&banner=1DG5GKFX1JWFXRYVV9R2&f=ifr" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+</div>
 
 
 
