@@ -1,22 +1,58 @@
-@charset "utf-8";
 /* CSS Document */
-/*
-© 20010 GreenBean
-Powered By Futerox Interactive.
-Designed By Prem Raj Madhukar
-HTML by Sumit Arora
-Developed by Alok Kumar Jha 
-*/
 
-/*----------------------------Default start here----------------------------*/
-
-body, html{font-family:Georgia, "Times New Roman", Times, serif;}
 body{background:#eee9dc url(../images/bg.png) repeat-x center top;}
 h1,h2,h3,h4,form,ul,img,p,input,body,html{padding:0; margin:0; border:0;}
 a{color:#81290d; text-decoration:none; cursor:pointer; outline:none;}
 a:hover{text-decoration:underline;}
 html>body #wrapper{height:100%;}
 
+/*
+-----------------------------------------
+Fonts
+-----------------------------------------
+*/
+body, html{font-family:Georgia, "Times New Roman", Times, serif;}
+
+h1 {
+  color: #81290D;
+  font-size: 24px;
+  font-weight: normal;	
+}
+
+h2 {
+  color: #81290D;
+  font-size: 20px;
+  font-weight: normal;	
+}
+
+.static_content p, .static_content ul {
+	color: #2E2E2E;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.static_content p {
+	margin: 8px 0;
+}
+
+.static_content ul {
+	padding: 4px 0px 0px 16px;
+}
+
+.static_content li {
+	padding-bottom: 8px;
+}
+
+
+/*
+-----------------------------------------
+Fonts
+-----------------------------------------
+*/
+
+
+
+.static_content
 /*----------------------------header start Here----------------------------*/
 
 
