@@ -217,32 +217,26 @@ foreach ($user_update as $value)
  </span>
  </p>
 
-
 </div>
 </div>
 </div>
 <? }}?>
-
-
-
-
 </div>
 
-
+<div class="sidebar">
 
 <div style="display: none;">
 		<div id="user_login_box">
 				<a href="javascript:void(0)" onclick="FB.Connect.requireSession(function() { update_user_box(); }); return 
 false;" ><img id="fb_login_image" src="<?=base_url();?>public/images/f-connect.gif" alt="Connect" border="0"/></a> <a href="<?=base_url()?>twitter_connect"><img src="<?=base_url()?>public/images/twitter-connect.jpg" width="150" height="22" /></a>
 		</div>
-	</div>
-	
-<div class="content-right">
-<div class="leaderboard-main">
-<div class="leaderboard-tp">
- <h2>Leader Board</h2>
-    for<br />
-    <p><?=$geo_location[0]['region_name']?> <?=$geo_location[0]['city']?></p>
+</div>
+
+<div class="leader-box">
+<div class="leader-box-banner">
+ <p>Leaderboard<br />
+    for<br /></p>
+    <h2><?=$geo_location[0]['city']?>, <?=$geo_location[0]['region_name']?></h2>
 </div>
 <div class="leaderboard-md">
 <div class="leaderboard-inner">
@@ -264,7 +258,9 @@ foreach ($top_users as $value)
 <div class="leaderboard-bt"></div>
 </div>
 
-<div class="sidebar pb"><img src="<?=base_url()?>public/images/advertisement.png"/></div>
+<div class="ad-300x250"><iframe src="http://rcm.amazon.com/e/cm?t=greenbean.me-20&o=1&p=12&l=ur1&category=earthday&banner=1DG5GKFX1JWFXRYVV9R2&f=ifr" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
+</div>
+
 <div class="sidebar-tag">
   <h2>Green Bean Tags</h2>
   <ul>

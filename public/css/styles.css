@@ -1,5 +1,11 @@
 /* CSS Document */
 
+/*
+* Greenbean.me 
+* Author: http://willmerydith.com
+* Design: http://bradcolbow.com
+*/
+
 body{background:#eee9dc url(../images/bg.png) repeat-x center top;}
 h1,h2,h3,h4,form,ul,img,p,input,body,html{padding:0; margin:0; border:0;}
 a{color:#81290d; text-decoration:none; cursor:pointer; outline:none;}
@@ -45,7 +51,6 @@ h2 {
 	padding-bottom: 8px;
 }
 
-
 /*
 -----------------------------------------
 Profile
@@ -87,6 +92,33 @@ Sidebar
 	width:324px; 
 	padding-left:6px; 
 	margin-bottom:10px;
+}
+
+.sidebar .leader-box-banner {
+	background: url(../images/leaderboard-tp.jpg) no-repeat left top;
+	width: 324px;
+	height: 70px;
+	text-align: center;
+	color: #FFF;
+	padding-top: 6px;
+}
+
+.sidebar .leader-box-banner h2 {
+	font-size: 22px;
+	color:#FFF;
+	text-transform: uppercase;
+	font-weight: normal;
+} 
+
+.sidebar .leader-box-banner a {
+	color:#FFF;
+} 
+
+.sidebar .leader-box-banner {
+	font-size: 14px;
+	color: #FFF;
+	text-transform: uppercase;
+	font-weight: normal;
 }
 
 .sidebar .leader-box .leader-box-header {

@@ -18,8 +18,7 @@
 
 <div class="top-us-wp">
 <div class="top-locations-wp">
-  <h1>Is Your Community Among<br />
-    The Greenest?</h1>
+  <h1>Most Popular Greenbean Locations</h1>
     
     <h2>Top 10 Locations</h2>
     
@@ -48,16 +47,16 @@ foreach ($top_users as $value)
     
     
 </div>
-<div class="content-right" style="padding-right:10px;">
+<div class="sidebar">
 
-<div class="fairfield-txt">
+<div class="top-message">
 <? if(!isset($_SESSION['userid'])){?>
-<p><a class='login_box' href="#user_login_box">Sign up and start earning bean for</a></p>
+<p><a class='login_box' href="#user_login_box">Sign up and start earning beans <br /> for</a>
 <? }else{?>
-<p><a href="<?=base_url()?>user/profile/<?=$_SESSION['userid']?>">Update your status and earn beans for </a></p>
+<p><a href="<?=base_url()?>user/profile/<?=$_SESSION['userid']?>">Update your status and earn beans<br /> for </a>
 <? }?>
+<span><?=$geo_location['city']?>, <?=$geo_location['region_name']?></span></p></div>
 
-<h2><?=$geo_location['region_name']?> , <?=$geo_location['city']?></h2></div>
 <div style="display: none;">
 		<div id="user_login_box">
 				<a href="javascript:void(0)" onclick="FB.Connect.requireSession(function() { update_user_box(); }); return 
@@ -65,21 +64,22 @@ false;" ><img id="fb_login_image" src="<?=base_url();?>public/images/f-connect.g
 <a href="<?=base_url()?>twitter_connect"><img src="<?=base_url()?>public/images/twitter-connect.jpg" width="150" height="22" /> </a>
 		</div>
 	</div>
-<div class="leaderboard-main">
-<div class="rank-tp">
+
+<div class="leader-box">
+<div class="leader-box-header">
   <h2>Tag Leader Rankings by Location</h2>
 </div>
-<div class="leaderboard-md">
+<div class="leader-box-middle">
 	<? if($top_location_tags){ 	
 for($i=0;$i<sizeof($top_location_tags);$i++)
   {?>  
-<div class="leaderboard-inner">
+<div class="leader-box-listing">
  <h2><?=$this->functions->show_tags_name($top_location_tags[$i]['tag_id'])?></h2>
  <?
  if($top_location_tags[$i]['top_location']){
  for($j=0;$j<sizeof($top_location_tags[$i]['top_location']);$j++)
   {?> 
-<div class="leaderboard-li">
+<div class="leader-box-listing-item">
   <p><a href="<?=base_url()?>locations/<?=$top_location_tags[$i]['top_location'][$j]->geo_location_id?>/0">
   <?=$top_location_tags[$i]['top_location'][$j]->region_name?> , <?=$top_location_tags[$i]['top_location'][$j]->city?>
   </a> - <a href="#"><?=$top_location_tags[$i]['top_location'][$j]->totaltagused?></a></p>
@@ -88,22 +88,19 @@ for($i=0;$i<sizeof($top_location_tags);$i++)
 
 </div>
   <? }}?> 
-  <div class="read-arrow">
+
+<div class="read-arrow">
   <a href="<?=base_url();?>toptags">See more tags</a>
   </div> 
 </div>
 
-<div class="leaderboard-bt"></div>
+<div class="leader-box-bottom"></div>
 </div>
 
-<div class="sidebar pb"><img src="images/advertisement.png" width="330" height="276" /></div>
-
-
-
+<div class="ad-300x250"><iframe src="http://rcm.amazon.com/e/cm?t=greenbean.me-20&o=1&p=12&l=ur1&category=earthday&banner=1DG5GKFX1JWFXRYVV9R2&f=ifr" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 </div>
 
-
-
+</div>
 </div></div>
 <div class="content-bt"></div>
 </div>

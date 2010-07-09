@@ -12,7 +12,7 @@
 </script>
     
 <div class="content-wp">
-<!--<div class="content-tp"></div>-->
+
 <div class="content-md">
 <div class="top-us-wp">
 <div class="top-locations-wp">
@@ -63,6 +63,7 @@ false;" ><img id="fb_login_image" src="<?=base_url();?>public/images/f-connect.g
 <a href="<?=base_url()?>twitter_connect"><img src="<?=base_url()?>public/images/twitter-connect.jpg" width="150" height="22" /> </a>
 		</div>
 	</div>
+	
 <div class="leader-box">
 <div class="leader-box-header">
   <h2>Tag Leader Rank By User</h2>
