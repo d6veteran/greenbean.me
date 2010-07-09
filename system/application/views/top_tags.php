@@ -16,8 +16,7 @@
 <div class="content-md">
 <div class="top-us-wp">
 <div class="top-locations-wp">
-  <h1>Is Your Community Among<br />
-    The Greenest?</h1>
+  <h1>Most Popular Greenbean Tags</h1>
     
     <h2>Top 10 Tags</h2>
     
@@ -47,12 +46,12 @@ foreach ($top_users as $value)
 <div class="top-message">
 <? if(!isset($_SESSION['userid'])){?>
 <p><a class='login_box' href="#user_login_box">Sign up and start earning beans<br />
-for this tag</a></p>
+for these tags! >></a></p>
 <? }else{?>
 <p>
 
 <a href="<?=base_url()?>user/profile/<?=$_SESSION['userid']?>">Update your status and earn
-beans<br /> for this tag</a>.
+beans<br /> for these tags. >></a>.
 
 </p>
 <? }?>
@@ -89,18 +88,13 @@ for($i=0;$i<sizeof($top_users_tags);$i++)
   <a href="<?=base_url();?>toptags">See more tags</a>
   </div>-->
 </div>
-<div class="leaderboard-bt"></div>
+<div class="leader-box-bottom"></div>
 </div>
 
 <div class="ad-300x250"><iframe src="http://rcm.amazon.com/e/cm?t=greenbean.me-20&o=1&p=12&l=ur1&category=earthday&banner=1DG5GKFX1JWFXRYVV9R2&f=ifr" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 </div>
 
-
-
 </div>
-
-
-
 </div>
 </div>
 <div class="content-bt"></div>

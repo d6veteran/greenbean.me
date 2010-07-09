@@ -71,8 +71,15 @@ Sidebar
 
 .sidebar .top-message {
 	float: left;
+	line-height: 26px;
 	padding: 0px 0px 14px 6px;
 	width: 330px;
+}
+
+.sidebar .top-message span {
+	font-size: 22px;
+	font-weight: normal;	
+	padding-left: 8px;
 }
 
 .sidebar .leader-box {
@@ -131,8 +138,15 @@ Sidebar
 }
 
 .leader-box-listing-item p {
-  font-size: 14px;
-  color: #000000;
+  //font-size: 14px;
+  //color: #000000;
+}
+
+.sidebar .leader-box .leader-box-bottom {
+	float:left;
+	background: url(../images/leaderboard-bt.jpg) no-repeat left top;
+	width: 316px;
+	height: 4px;
 }
 
 .sidebar .ad-300x250{
@@ -140,6 +154,24 @@ Sidebar
 	width:308px;
 	padding: 0 0 8px 14px;
 }
+
+.sidebar .read-arrow {
+	text-align: right; 
+	background: #FFF; 
+	font-size: 12px;
+	padding: 10px 0;
+	float: left;
+	width: 300px;
+	padding-right: 8px;
+}
+
+.sidebar .read-arrow a {
+	background: url(../images/read-arrow.jpg) no-repeat right 3px;
+	padding-right:12px;
+}
+
+
+
 
 .leaderboard-tp{background:url(../images/leaderboard-tp.jpg) no-repeat left top; width:324px; height:70px; text-align:center; color:#FFF; padding-top:6px;} 
 .leaderboard-tp h2{font-size:22px; color:#FFF; text-transform:uppercase; font-weight:normal;} 

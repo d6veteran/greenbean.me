@@ -16,8 +16,7 @@
 <div class="content-md">
 <div class="top-us-wp">
 <div class="top-locations-wp">
-  <h1>What are your doing to Save<br />
-    the Planet?</h1>
+  <h1>Top Greenbean Users</h1>
     
     <h2>Top 10 Users</h2>
     
@@ -42,15 +41,16 @@ for($i=0;$i<sizeof($top_users_past_days);$i++)
     
     
 </div>
-<div class="content-right" style="padding-right:10px;">
+<div class="sidebar">
 
-<div class="fairfield-txt">
+<div class="top-message">
 <? if(!isset($_SESSION['userid'])){?>
-<p><a class='login_box' href="#user_login_box">Sign up and start earning bean for</a></p>
+<p><a class='login_box' href="#user_login_box">Sign up and start earning beans<br /> for</a>
 <? }else{?>
-<p><a href="<?=base_url()?>user/profile/<?=$_SESSION['userid']?>" >Update your status and earn beans for</a></p>
+<p><a href="<?=base_url()?>user/profile/<?=$_SESSION['userid']?>" >Update your status and earn beans<br /> for</a>
 <? }?>
-<h2><?=$geo_location['region_name']?> , <?=$geo_location['city']?></h2></div>
+<span><?=$geo_location['city']?>, <?=$geo_location['region_name']?></span></p></div>
+
 <div style="display: none;">
 		<div id="user_login_box">
 				<a href="javascript:void(0)" onclick="FB.Connect.requireSession(function() { update_user_box(); }); return 
@@ -58,44 +58,41 @@ false;" ><img id="fb_login_image" src="<?=base_url();?>public/images/f-connect.g
 <a href="<?=base_url()?>twitter_connect"><img src="<?=base_url()?>public/images/twitter-connect.jpg" width="150" height="22" /></a>
 		</div>
 	</div>
-<div class="leaderboard-main">
-<div class="rank-tp">
-  <h2>Tag Leader Rankings by User</h2>
+<div class="leader-box">
+<div class="leader-box-header">
+  <h2>Tag Leader Rank by User</h2>
 </div>
-<div class="leaderboard-md">
+<div class="leader-box-middle">
 	<? if($top_users_tags){ 	
 for($i=0;$i<sizeof($top_users_tags);$i++)
   {?>  
-<div class="leaderboard-inner">
+<div class="leader-box-listing">
  <h2><a href="<?=base_url();?>tags/<?=$this->functions->show_tags_name($top_users_tags[$i]['tag_id'])?>"><?=$this->functions->show_tags_name($top_users_tags[$i]['tag_id'])?></a></h2>
  <?
  if($top_users_tags[$i]['top_users']){
  for($j=0;$j<sizeof($top_users_tags[$i]['top_users']);$j++)
   {?> 
-<div class="leaderboard-li">
+<div class="leader-box-listing-item">
   <p><a href="<?=base_url()?>user/profile/<?=$top_users_tags[$i]['top_users'][$j]->user_userid?>"><?=$top_users_tags[$i]['top_users'][$j]->user_username?></a> - <?=$top_users_tags[$i]['top_users'][$j]->totaltagused?></p>
 </div>
 <? }}?> 
 
 </div>
   <? }}?> 
- <div class="read-arrow">
-  <a href="<?=base_url();?>toptags">See more tags</a>
-  </div>
+
+<div class="read-arrow">
+<a href="<?=base_url();?>toptags">See more tags</a>
+</div>
   
-
 </div>
-<div class="leaderboard-bt"></div>
+<div class="leader-box-bottom"></div>
 </div>
 
-<div class="sidebar pb"><img src="<?=base_url()?>public/images/advertisement.png"/></div>
-
-
-
+<div class="ad-300x250"><iframe src="http://rcm.amazon.com/e/cm?t=greenbean.me-20&o=1&p=12&l=ur1&category=earthday&banner=1DG5GKFX1JWFXRYVV9R2&f=ifr" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 </div>
 
 </div>
-
+</div>
 </div>
 <div class="content-bt"></div>
-</div>
+</div> 
