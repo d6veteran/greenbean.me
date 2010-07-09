@@ -65,6 +65,27 @@ Profile
 
 /*
 -----------------------------------------
+Main Content
+-----------------------------------------
+*/
+
+.content-wrapper {
+	width: 903px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.content-wrapper .content-bottom {
+	background:url(../images/content-bt.png) no-repeat center top; 
+	width: 903px;
+	height: 34px;
+	float:left;
+}
+
+
+.content-bt{background:url(../images/content-bt.png) no-repeat center top; width:903px; height:34px; float:left;}
+/*
+-----------------------------------------
 Sidebar
 -----------------------------------------
 */
@@ -283,7 +304,7 @@ a.logo{z-index:2000; display:block; background:url(../images/logo.png) no-repeat
 .sidebar-tag ul li{display:block;}
 .sidebar-tag ul li a{color:#003366; font-size:14px; font-family:Tahoma, Geneva, sans-serif;}
 .sidebar-tag ul li span{color:#4f843b; font-size:14px; font-family:Tahoma, Geneva, sans-serif;}
-.content-bt{background:url(../images/content-bt.png) no-repeat center top; width:903px; height:34px; float:left;}
+
 
 /*----------------------------Rank Starts Here----------------------------*/
 

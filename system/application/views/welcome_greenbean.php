@@ -168,7 +168,7 @@ function tweet()
   
 
 
-<div class="content-wp">
+<div class="content-wrapper">
 <div class="content-md">
   <div>
   <div class="content-lt">
@@ -275,9 +275,8 @@ foreach ($top_users as $value)
   
 </div>
 
-
 </div>
 </div>
 </div>
-<div class="content-bt"></div>
+<div class="content-bottom"></div>
 </div>
